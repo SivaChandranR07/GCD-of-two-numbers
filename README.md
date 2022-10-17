@@ -21,8 +21,11 @@ Developed by: Siva Chandran R
 RegisterNumber:  22005531
 */
 ```python
+
 n1=int(input())
+
 n2=int(input())
+
 def gcd():
     if n1>n2:
         smaller=n2
@@ -32,6 +35,8 @@ def gcd():
         if((n1 % i == 0) and (n2 % i == 0)):
             gcd1=i
     print("GCD of two numbers is:",gcd1)
+
+
 ```
 
 ## Output:
